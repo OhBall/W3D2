@@ -65,7 +65,8 @@ INSERT INTO
   questions (title, body, user_id)
 VALUES
   ('WTF?', 'Seriously? WTF!', 1),
-  ('OLIVER_WTF?', 'OLIVER_Seriously? WTF!', 2);
+  ('OLIVER_WTF?', 'OLIVER_Seriously? WTF!', 2),
+  ('Why does nobody like my posts?', 'It''s very hurtful.', 2);
 
 INSERT INTO
   questions_follows(user_id, question_id)
@@ -85,7 +86,8 @@ INSERT INTO
   question_likes(user_id, question_id)
 VALUES
   (2,1),
-  (1,1);
+  (1,1),
+  (1,2);
   
   -- DROP TABLE if exists question_likes;
   -- 
